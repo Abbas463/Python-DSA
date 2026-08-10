@@ -16,6 +16,10 @@
 # print(fruits)
 # print("Removed:", popped)
 
+# fruits = ["apple", "banana", "cherry"]
+# fruits[1] = "mango"        # Change index 1
+# print(fruits)
+
 fruits = ["apple", "banana", "cherry"]
-fruits[1] = "mango"        # Change index 1
-print(fruits)
+for fruit in fruits:
+    print(fruit)
