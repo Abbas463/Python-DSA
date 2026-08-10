@@ -10,8 +10,12 @@
 # fruits.insert(1, "mango")  # Add at position 1
 # print(fruits)
 
+# fruits = ["apple", "banana", "cherry"]
+# fruits.remove("banana")    # Remove by value
+# popped = fruits.pop()      # Remove last
+# print(fruits)
+# print("Removed:", popped)
+
 fruits = ["apple", "banana", "cherry"]
-fruits.remove("banana")    # Remove by value
-popped = fruits.pop()      # Remove last
+fruits[1] = "mango"        # Change index 1
 print(fruits)
-print("Removed:", popped)
