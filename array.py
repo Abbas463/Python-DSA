@@ -24,6 +24,12 @@
 # for fruit in fruits:
 #     print(fruit)
 
-fruits = ["apple", "banana", "cherry"]
-if "banana" in fruits:
-    print("Yes, banana is in the list")
+# fruits = ["apple", "banana", "cherry"]
+# if "banana" in fruits:
+#     print("Yes, banana is in the list")
+
+nums = [10, 20, 30, 40, 50]
+print(nums[0:3])   # First 3 items
+print(nums[1:4])   # Items 1 to 3
+print(nums[:2])    # First 2
+print(nums[2:])    # From index 2 to end
