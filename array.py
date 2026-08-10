@@ -20,6 +20,10 @@
 # fruits[1] = "mango"        # Change index 1
 # print(fruits)
 
+# fruits = ["apple", "banana", "cherry"]
+# for fruit in fruits:
+#     print(fruit)
+
 fruits = ["apple", "banana", "cherry"]
-for fruit in fruits:
-    print(fruit)
+if "banana" in fruits:
+    print("Yes, banana is in the list")
