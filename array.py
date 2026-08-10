@@ -34,8 +34,11 @@
 # print(nums[:2])    # First 2
 # print(nums[2:])    # From index 2 to end
 
-nums = [5, 2, 8, 1, 9]
-nums.sort()        # Small to large
-print(nums)
-nums.reverse()     # Reverse order
-print(nums)
+# nums = [5, 2, 8, 1, 9]
+# nums.sort()        # Small to large
+# print(nums)
+# nums.reverse()     # Reverse order
+# print(nums)
+
+fruits = ["apple", "banana", "cherry"]
+print("Length:", len(fruits))
