@@ -55,5 +55,9 @@
 # fruits = ["apple", "banana", "cherry"]
 # print("Index of banana:", fruits.index("banana"))
 
-nums = [1, 2, 2, 3, 2, 4]
-print("Number of 2s:", nums.count(2))
+# nums = [1, 2, 2, 3, 2, 4]
+# print("Number of 2s:", nums.count(2))
+
+fruits = ["apple", "banana", "cherry"]
+fruits.clear()
+print(fruits)  # []
