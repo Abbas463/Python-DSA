@@ -48,6 +48,9 @@
 # combined = list1 + list2
 # print(combined)
 
-nums = [1, 2, 3]
-repeated = nums * 3
-print(repeated)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
+# nums = [1, 2, 3]
+# repeated = nums * 3
+# print(repeated)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+fruits = ["apple", "banana", "cherry"]
+print("Index of banana:", fruits.index("banana"))
