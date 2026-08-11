@@ -52,5 +52,8 @@
 # repeated = nums * 3
 # print(repeated)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
 
-fruits = ["apple", "banana", "cherry"]
-print("Index of banana:", fruits.index("banana"))
+# fruits = ["apple", "banana", "cherry"]
+# print("Index of banana:", fruits.index("banana"))
+
+nums = [1, 2, 2, 3, 2, 4]
+print("Number of 2s:", nums.count(2))
