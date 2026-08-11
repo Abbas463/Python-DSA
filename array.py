@@ -58,6 +58,12 @@
 # nums = [1, 2, 2, 3, 2, 4]
 # print("Number of 2s:", nums.count(2))
 
-fruits = ["apple", "banana", "cherry"]
-fruits.clear()
-print(fruits)  # []
+# fruits = ["apple", "banana", "cherry"]
+# fruits.clear()
+# print(fruits)  # []
+
+original = [1, 2, 3]
+copy = original.copy()   # Independent copy
+original.append(4)
+print("Original:", original)
+print("Copy:", copy)     # Copy stays same
