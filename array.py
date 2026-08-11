@@ -43,7 +43,11 @@
 # fruits = ["apple", "banana", "cherry"]
 # print("Length:", len(fruits))
 
-list1 = [1, 2, 3]
-list2 = [4, 5, 6]
-combined = list1 + list2
-print(combined)
+# list1 = [1, 2, 3]
+# list2 = [4, 5, 6]
+# combined = list1 + list2
+# print(combined)
+
+nums = [1, 2, 3]
+repeated = nums * 3
+print(repeated)  # [1, 2, 3, 1, 2, 3, 1, 2, 3]
