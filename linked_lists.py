@@ -9,3 +9,8 @@ c = Node(30)
 a.next = b
 b.next = c
 head = a
+
+curr = head
+while curr:
+    print(curr.data)
+    curr = curr.next
