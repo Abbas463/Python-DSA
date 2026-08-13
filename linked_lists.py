@@ -18,3 +18,8 @@ while curr:
 new = Node(5)
 new.next = head
 head = new
+
+curr = head
+while curr.next:
+    curr = curr.next
+curr.next = Node(40)
