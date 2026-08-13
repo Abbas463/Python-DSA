@@ -14,3 +14,7 @@ curr = head
 while curr:
     print(curr.data)
     curr = curr.next
+
+new = Node(5)
+new.next = head
+head = new
