@@ -25,3 +25,8 @@ while curr.next:
 curr.next = Node(40)
 
 head = head.next
+
+curr = head
+while curr.next.next:
+    curr = curr.next
+curr.next = None
